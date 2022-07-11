@@ -1,0 +1,36 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.13",
+    "pm2": "^5.2.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5",
+    "standard": "^17.0.0"
+  },
+  "scripts": {
+    "clear": "pm2 kill && pm2 reset all",
+    "start": "npm run clear && pm2 start app.js",
+    "restart": "pm2 restart app.js",
+    "monitor": "pm2 monit",
+    "log": "pm2 log",
+    "seed": "node -e require('./seeders')('seed')",
+    "unseed": "node -e require('./seeders')('unseed')",
+    "prettier": "prettier --config .prettierrc.js --write !*.prettierrc.js **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kryuzaki18/express-mongoose-boilerplate.git"
+  },
+  "author": "Krystian John Dumapit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kryuzaki18/express-mongoose-boilerplate.git/issues"
+  }
+}
