@@ -1,10 +1,9 @@
-# REST-express-mongoose-boilerplate
+# express-mongoose-boilerplate
 
-Deploy a Node.js server with ExpressJS and mongoose.
+Deploy a Node.js server with express and mongoose.
 
 ## File structure
 
-- :file_folder: node_modules/
 - :file_folder: controllers/
 - :open_file_folder: config/
   - :page_facing_up: allowedOrigins.js
@@ -30,7 +29,7 @@ Deploy a Node.js server with ExpressJS and mongoose.
 - :page_facing_up: package.json
 - :page_facing_up: README.md
 
-## Run
+## Steps
 
 1. At the repository root, download the dependencies with **npm**:
 ```
@@ -39,4 +38,7 @@ npm install
 
 2. Make sure you're running your database service.
 
-3. Run **npm start** at project root directory.
+3. At project root directory.
+```
+npm start
+```
