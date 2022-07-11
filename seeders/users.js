@@ -18,7 +18,7 @@ const usersSeeders = {
         social_network: ['asdasdsd'],
         last_login: new Date(),
         created_at: new Date(),
-        updatedAt: new Date()
+        updated_at: new Date()
       },
       {
         name: 'User2',
@@ -33,7 +33,7 @@ const usersSeeders = {
         social_network: ['asdasdsd'],
         last_login: new Date(),
         created_at: new Date(),
-        updatedAt: new Date()
+        updated_at: new Date()
       }
     ]
 
